@@ -6,7 +6,7 @@ class Welcome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Placeholder(
-      child: Text('data', style: TextStyle()),
+      child: Text('data', style: TextStyle(color: Colors.red)),
     );
   }
 }
